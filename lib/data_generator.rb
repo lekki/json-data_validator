@@ -32,4 +32,4 @@ module JSON
   end
 end
 
-p JSON::DataGenerator.new("test/schema2.json").generate
+#p JSON::DataGenerator.new("test/schema2.json").generate

@@ -1,12 +1,3 @@
-=begin
-require "/Users/lekki/json_data_generator/type_generator.rb"
-require "/Users/lekki/json_data_generator/integer_type_generator.rb"
-require "/Users/lekki/json_data_generator/string_type_generator.rb"
-require "/Users/lekki/json_data_generator/null_type_generator.rb"
-require "/Users/lekki/json_data_generator/boolean_type_generator.rb"
-require "/Users/lekki/json_data_generator/array_type_generator.rb"
-require "/Users/lekki/json_data_generator/union_type_generator.rb"
-=end
 module JSON
   class DataGenerator
     class ObjectTypeGenerator < TypeGenerator
