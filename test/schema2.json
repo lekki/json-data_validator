@@ -1,0 +1,16 @@
+{
+ "type":"object",
+ "required":true,
+
+ "properties":{
+     "a" : {"type" : "number", "required" : true, "maximum" : 12, "minimum" : 0},
+     "b" : {"type" : "string", "required" : true, "maxLength" : 6, "minLength" : 4},
+     "x" : {"type" : "object", "required" : true},
+     "y" : {"type" : "null", "required" : false},
+     "z" : {"type" : "boolean", "optional" : true},
+     "w" : {"type" : "array", "items" : {"type" : "object", "properties" : {"xxx" : {"type":"string", "required":true}}}, "required": true, "minItems":5, "maxItems":20 },
+     "c" : {"type" : ["string", "integer"], "required" : true}
+
+ }
+
+}

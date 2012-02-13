@@ -1,0 +1,17 @@
+{
+ "type":"object",
+ "properties":{
+     "prop01":{
+         "type":"number",
+         "maximum":10
+         },
+      "prop02":{"type":"object",
+               "properties":{
+                    "x" : {
+                        "type":"number",
+                        "maximum":10
+                    }
+                }
+      }
+    }
+}
